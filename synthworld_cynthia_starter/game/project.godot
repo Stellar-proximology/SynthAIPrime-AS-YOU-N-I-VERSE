@@ -1,0 +1,13 @@
+
+config_version=5
+
+[application]
+config/name="SynthWorld-Cynthia"
+run/main_scene="res://Scenes/World.tscn"
+
+[autoload]
+BehaviorService="*res://Scripts/Systems/BehaviorService.gd"
+NudgeSystem="*res://Scripts/Systems/NudgeSystem.gd"
+
+[rendering]
+environment/defaults/default_clear_color=Color(0.22, 0.25, 0.28, 1.0)
